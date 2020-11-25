@@ -45,5 +45,6 @@ PayPal: http://www.bit.ly/382is5H
 Thanks!
 
 AMO: https://addons.mozilla.org/pl/firefox/addon/youtube-popup-tamer/
+
 CWS: https://chrome.google.com/webstore/detail/youtube-popup-tamer/ljhkfklbohndemkbafegonhpanfajeae
 
