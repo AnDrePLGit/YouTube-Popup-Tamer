@@ -1,0 +1,43 @@
+{
+
+  "manifest_version": 2,
+  "name": "YouTube Popup Tamer",
+  "version": "1.20",
+  "description": "Closes annoying YouTube popups and lets you watch without interruptions.",
+
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+
+  "permissions": [
+    "storage",
+    "webRequest",
+    "webRequestBlocking",
+    "tabs",
+    "*://www.youtube.com/*"
+  ],
+
+  "options_ui": {
+    "page": "options.html"
+  },
+
+  "web_accessible_resources": [
+    "img/paypal_20.png"
+  ],
+  
+  "background": {
+    "scripts": ["background.js"]
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://www.youtube.com/*"],
+      "js": ["yt_popup_tamer.js"],
+      "run_at": "document_end"
+    }
+  ]
+
+}

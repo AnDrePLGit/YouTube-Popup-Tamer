@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <style>
+    body {padding-top:10px}
+    .paypal{display:block;width:97px;padding:2px 5px;border:#2677C9 2px solid;border-radius:6px}
+    #opt{padding-bottom:10px}
+    #donate, #stat, #pages {padding-top:10px;padding-bottom:10px;border-top:1px solid}
+    </style>
+  </head>
+
+  <body>
+    <div id="opt">
+      <b>Options:</b><br />
+      <input type="checkbox" id="dontShowBox" />
+      <label for="dontShowBox">Don't show notifications after closing popup</label><br />
+      <input type="checkbox" id="dontSkipAds" />
+      <label for="dontSkipAds">Don't skip ads</label><br />
+    </div>
+
+    <div id="stat">
+      <b>Statistics:</b><br />
+      Popups tamed: <b id="popupsTamed"></b><br />
+      Skip Ad clicked: <b id="skipAdClicked"></b><br />
+    </div>
+
+    <div id="donate">
+      <b>Show support:</b>
+      <a href="http://www.bit.ly/382is5H" target="_blank" class="paypal">
+        <img class="paypalimg" src="img/paypal_20.png" />
+      </a>
+    </div>
+    
+    <div id="pages">
+      <b>Pages:</b><br />
+      <a href="#" target="_blank" id="pages_u">Update page &raquo;</a><br />
+      <a href="#" target="_blank" id="pages_i">Install page &raquo;</a><br />
+      <a href="#" target="_blank" id="pages_r">Raport page &raquo;</a><br />
+      <a href="http://www.d3andre.com/ytpt/" target="_blank">Project page &raquo;</a>
+    </div>
+    
+    <script src="options.js"></script>
+  </body>
+</html>
