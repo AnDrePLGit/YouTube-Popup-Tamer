@@ -2,6 +2,8 @@ Closes annoying YouTube popups and lets you watch without interruptions.
 It also clicks "Skip Ad" button when ad comes up (mainly for leftovers after Adblock).
 Does not interfere with the Adblock Plus extension.
 
+
+
 I used many extension and they all have some defects, so i wrote one for myself, and i want to share it with you.
 
 Works on any popup (big, small, on left and right ;) ), but in particular:
