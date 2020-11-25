@@ -2,7 +2,7 @@ Closes annoying YouTube popups and lets you watch without interruptions.
 It also clicks "Skip Ad" button when ad comes up (mainly for leftovers after Adblock).
 Does not interfere with the Adblock Plus extension.
 
-
+<img src="https://github.com/AnDrePLGit/YouTube-Popup-Tamer/raw/main/icons/icon128.png" />
 
 I used many extension and they all have some defects, so i wrote one for myself, and i want to share it with you.
 
@@ -43,3 +43,7 @@ If this extension made your life a bit easier and you want it to be further deve
 PayPal: http://www.bit.ly/382is5H
 
 Thanks!
+
+AMO: https://addons.mozilla.org/pl/firefox/addon/youtube-popup-tamer/
+CWS: https://chrome.google.com/webstore/detail/youtube-popup-tamer/ljhkfklbohndemkbafegonhpanfajeae
+
